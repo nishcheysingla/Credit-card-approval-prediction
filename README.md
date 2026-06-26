@@ -1,9 +1,11 @@
+# Credit-card-approval-prediction
+Built a machine learning model to predict credit card approval without affecting users’ credit scores by avoiding hard inquiries. Performed EDA, correlation analysis, and model training, selecting Gradient Boosting with recall as the key metric. Deployed the model using AWS S3
 
-# Key findings: People with the highest income, and who have at least one partner, are more likely to be approved for a credit card.
+Key findings: People with the highest income, and who have at least one partner, are more likely to be approved for a credit card.
 
 ## Business problem
-
 This app predicts if an applicant will be approved for a credit card or not. Each time there is a hard enquiry your credit score is affected negatively. This app predict the probability of being approved without affecting your credit score. This app can be used by applicant who wants to find out if they will be approved for a credit card without affecting their credit score.
+
 ## Data source
 
 - [Kaggle credit card approval prediction](https://www.kaggle.com/rikdifos/credit-card-approval-prediction)
